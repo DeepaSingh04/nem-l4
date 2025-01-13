@@ -1,4 +1,3 @@
-// middlewares/requestMiddlewares.js
 
 const express = require('express');
 const cors = require('cors');
@@ -18,6 +17,8 @@ const loggingMiddleware = () => morgan('combined');
 
 module.exports = {
   bodyParsingMiddlewares,
-  corsMiddleware,
+  corsMiddlewares
   loggingMiddleware,
 };
+
+
