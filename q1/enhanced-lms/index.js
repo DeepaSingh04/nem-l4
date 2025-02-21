@@ -4,7 +4,7 @@ const { bodyParsingMiddlewares, corsMiddleware, loggingMiddleware } = require('.
 // Initialize Express app
 const app = express();
 
-// Middleware for parsing JSON and URL-encoded payloads
+// Middleware for parsing JSON and URL-encoded payloadss
 app.use(...bodyParsingMiddlewares());
 
 // Middleware for security (CORS)
